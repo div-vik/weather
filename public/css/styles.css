@@ -1,0 +1,325 @@
+@media screen and (max-width: 600px) {
+
+  body{
+    text-align: left;
+    color: #ffffff;
+    overflow: hidden;
+    background-image: url("https://64.media.tumblr.com/b576b3386f9d54de17917bb872465d80/06534e95f1d29395-94/s1280x1920/0ea65dc4af88679ad88dcd76fd4e0f62a0f29dbb.jpg");
+    background-size: 100%;
+  }
+
+  .brand{
+    margin-left: 3px;
+    margin-top: 1px;
+    padding: 2px;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 5px;
+    border: 2px solid #ffffff;
+  }
+
+  .temp{
+    font-size: 5em;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 3.8em;
+  }
+
+  .unit{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .position{
+    margin-left: 5px;
+    position: relative;
+    top: 7em;
+  }
+
+  .searchBar{
+    position: absolute;
+    top: 5em;
+    left: 15%;
+  }
+
+  form.searchBar input[type=search] {
+    color: #ffffff;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    float: left;
+    background-color: transparent;
+  }
+
+  ::placeholder{
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  form.searchBar button {
+    float: left;
+    width: 4rem;
+    padding: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  .why{
+    display: flex;
+    width: 100%;
+    height: 6em;
+    position: absolute;
+    bottom: 0;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+  }
+
+  .description{
+    text-align: center;
+  }
+
+  .cloud1{
+    position: relative;
+    bottom: 15em;
+  }
+  .weather_description{
+    position: absolute;
+    bottom: 13em;
+    margin-left: 10px;
+  }
+
+  .currentTime{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .time{
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .day{
+    margin: 0;
+  }
+
+  .windSpeed{
+    text-align: center;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 1rem;
+  }
+
+  .fa-wind{
+    font-size: 2rem;
+  }
+
+  .humidity{
+    text-align: center;
+    position: relative;
+    bottom: 8.5rem;
+    left: 11em;
+  }
+
+  .fa-tint{
+    font-size: 2rem;
+  }
+
+  .noCloud{
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+    right: 1em;
+  }
+
+  .cloud{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  body{
+    color: #ffffff;
+    overflow: hidden;
+    background-image: url("https://www.teahub.io/photos/full/165-1650203_cold-night-mountains-wallpaper-mountain-range-at-night.jpg");
+  }
+
+  .box{
+    width: 100%;
+  }
+
+  header{
+    display: inline-block;
+    padding: 3px;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ffffff;
+  }
+
+  .grid{
+    text-align: center;
+  }
+
+  .currentTime{
+    text-align: right;
+  }
+
+  .time{
+    display: inline;
+    padding-right: 40px;
+    font-size: 4rem;
+    position: absolute;
+    right: 0;
+  }
+
+  .day{
+    display: inline;
+    padding-right: 40px;
+    font-size: 1em;
+    position: absolute;
+    right: 0em;
+    top: 9em;
+  }
+
+  .position{
+    text-align: left;
+  }
+
+  .location{
+    display: inline;
+    font-size: 4rem;
+    position: absolute;
+    left: 1em;
+    top: 1.8em;
+    margin: 0;
+  }
+
+  .country{
+    position: absolute;
+    top: 9em;
+    left: 3em;
+    margin: 0;
+  }
+
+  .searchBar{
+    color: #ffffff;
+    position: absolute;
+    left: 30%;
+    top: 6em;
+  }
+
+  form.searchBar input[type=search] {
+  color: #ffffff;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #ffffff;
+  float: left;
+  width: 21em;
+  border-right: none;
+  background-color: transparent;
+}
+
+  ::placeholder{
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  form.searchBar button {
+  float: left;
+  width: 5rem;
+  padding: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 17px;
+  border: 1px solid #ffffff;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+  .why{
+    width: 100%;
+    height: 16rem;
+    position: absolute;
+    bottom: 0;
+    border: 3px solid #ffffff;
+    border-radius: 2rem;
+    padding: 15px;
+  }
+
+  .description{
+    display: inline-block;
+  }
+
+  .cloud1{
+    width: 11em;
+    position: relative;
+    bottom: 3em;
+  }
+
+  .weather_description{
+    display: inline-block;
+    position: relative;
+    top: 1.6em;
+    right: 9em;
+  }
+
+  .temp{
+    position: relative;
+    right: 2%;
+    bottom: 2rem;
+    font-size: 4em;
+    display: inline-block;
+  }
+
+  .unit{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .windSpeed{
+    position: relative;
+    top: 1em;
+    left: 9%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .fa-wind{
+    font-size: 5em;
+    margin-bottom: 5px;
+  }
+
+  .humidity{
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    left: 27%;
+    text-align: center;
+  }
+
+  .fa-tint{
+    font-size: 5em;
+    margin-bottom: 5px;
+  }
+
+  .noCloud{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 1em;
+    left: 44%;
+  }
+
+  .cloud{
+    margin-bottom: 5px;
+    font-size: 5em;
+  }
+}

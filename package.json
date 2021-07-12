@@ -1,0 +1,20 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "My first weather website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divya Vikash",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "innertext": "^1.0.3",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.6.0",
+    "nodemon": "^2.0.9",
+    "request": "^2.88.2"
+  }
+}

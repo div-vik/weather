@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+  body{
+    text-align: center;
+    overflow: hidden;
+    background-image: url("https://64.media.tumblr.com/b576b3386f9d54de17917bb872465d80/06534e95f1d29395-94/s1280x1920/0ea65dc4af88679ad88dcd76fd4e0f62a0f29dbb.jpg");
+    background-size: 100%;
+  }
+
+  .brand{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    margin-left: 3px;
+    margin-top: 1px;
+    padding: 2px;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 5px;
+    border: 2px solid #ffffff;
+  }
+
+  h1{
+    font-size: 3rem;
+    color: #ffffff;
+  }
+
+  .searchBar{
+    position: absolute;
+    top: 20em;
+    left: 22%;
+  }
+
+  form.searchBar input[type=search] {
+    color: #ffffff;
+    padding: 4px;
+    border: 1px solid #ffffff;
+    float: left;
+    background-color: transparent;
+  }
+
+  ::placeholder{
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+  form.searchBar button {
+    float: left;
+    width: 4rem;
+    padding: 4px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-left: none;
+    cursor: pointer;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  body{
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    background-image: url("https://www.teahub.io/photos/full/165-1650203_cold-night-mountains-wallpaper-mountain-range-at-night.jpg");
+  }
+
+  .brand{
+    text-align: left;
+  }
+
+  header{
+    display: inline-block;
+    padding: 3px;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ffffff;
+  }
+
+  .content{
+    position: absolute;
+    top: 32vh;
+    left: 50vh;
+  }
+
+  h1{
+    font-size: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+  }
+
+  .searchBar{
+    color: white;
+    position: relative;
+    left: 15%;
+    top: 9em;
+  }
+
+  form.searchBar input[type=search] {
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 30em;
+    border-right: none;
+    background-color: transparent;
+  }
+
+  ::placeholder{
+    color: white;
+    opacity: 0.5;
+  }
+
+  form.searchBar button {
+    float: left;
+    width: 5rem;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none;
+    cursor: pointer;
+  }
+}

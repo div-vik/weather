@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <!-- Bootstrap core CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="icon" href="images\icon.png">
+  <!-- Css file -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/13163a844a.js" crossorigin="anonymous"></script>
+  <!-- flaticon -->
+  <link rel=”stylesheet” href=”https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”>
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="brand">
+      <header>
+        weather
+      </header>
+    </div>
+    <div class="grid">
+      <div class="currentTime">
+        <h2 class="time"><%= time %></h2>
+        <p class="day"><%= day %></p>
+      </div>
+      <form class="searchBar" action="/" method="POST">
+        <input type="search" placeholder="Location" name="search" autocomplete="off">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <div class="position">
+        <p class="location"><%= location %>, </p>
+        <p class="country"><%= country %></p>
+      </div>
+    </div>
+    <div class="why">
+      <div class=" today-details" id="imp">
+        <div class="description">
+          <img class="cloud1" src="<%= cloud1 %>" alt="image">
+          <p class="weather_description"><%= weather_description %></p>
+        </div>
+        <h1 class="temp"><%= temp %><span class="unit"><p class="celsius" style="display:inline-block;">°C</p></span></h1>
+        <div class="windSpeed">
+          <i class="fas fa-wind"></i>
+          <h5><%= windSpeed %>km/hr</h5>
+        </div>
+        <div class="humidity">
+          <i class="fas fa-tint"></i>
+          <h5><%= humidity %>%</h5>
+        </div>
+        <div class="noCloud">
+          <i class="fas fa-cloud cloud"></i>
+          <h5><%= noCloud %></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
